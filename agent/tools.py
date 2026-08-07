@@ -5,7 +5,7 @@ from config import API_URL
 
 @tool
 def ask_question(question: str) -> str:
-    """Search for knowledge-based answers related Bagumbayan Health Center"""
+    """Search for knowledge-based answers related Bagumbayan Health Center, healthcare website and FAQs"""
     try:
         result = get_qa_chain().invoke({"query": question})
         print(result)

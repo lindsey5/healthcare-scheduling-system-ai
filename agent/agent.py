@@ -1,8 +1,8 @@
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent  
-
+from config import *
 from agent.tools import getChatbotTools
-from llm.model import get_qwen3_4b_model
+from llm.model import get_openrouter_model
 
 _chat_bot_agent = None
 _model = None
@@ -18,7 +18,7 @@ def initialize_agent():
     if _chat_bot_agent is not None:
         return
 
-    _model = get_qwen3_4b_model()
+    _model = get_openrouter_model()
     _tools = getChatbotTools()
 
     chat_bot_prompt = """
@@ -33,10 +33,10 @@ def initialize_agent():
     - If you don't know the answer, say you don't have that information.
 
     - Keep answers concise, clear, and accurate.
-    
+
     - Always display the information in html body content format, and style it to make it presentable but dont put background
 
-    - Do not guess—always rely on the available tools and knowledge base
+    - Do not guess-always rely on the available tools and knowledge base
     when providing information about the health center.
 
     - You may provide general treatment, self-care, and health recommendations

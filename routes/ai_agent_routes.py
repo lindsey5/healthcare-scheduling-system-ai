@@ -38,14 +38,13 @@ async def chat(req: Request):
             },
             config=config,
         )
-
         ai_message = result["messages"][-1]
 
         return JSONResponse(
             status_code=200,
             content={
                 "thread_id": thread_id,
-                "message": ai_message.content,
+                "message": ai_message.content
             },
         )
 
