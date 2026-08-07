@@ -33,6 +33,8 @@ def initialize_agent():
     - If you don't know the answer, say you don't have that information.
 
     - Keep answers concise, clear, and accurate.
+    
+    - Always display the information in html body content format, and style it to make it presentable but dont put background
 
     - Do not guess—always rely on the available tools and knowledge base
     when providing information about the health center.

@@ -15,7 +15,7 @@ def ask_question(question: str) -> str:
 
 @tool
 def get_services() -> dict:
-    """Get the healthcare services offered by the health center, sort it by day."""
+    """Get the healthcare services offered by the health center"""
 
     response = httpx.get(
         f"{API_URL}/api/services",
