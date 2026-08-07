@@ -198,5 +198,1605 @@
   {
     "question": "Who can benefit from the Barangay Bagumbayan Health Center's healthcare programs?",
     "answer": "Individuals, families, children, pregnant women, senior citizens, persons with disabilities, and the entire Barangay Bagumbayan community can benefit from the health center's healthcare programs."
+  },
+    {
+    "question": "What is the purpose of patient registration?",
+    "answer": "Patient registration creates a record in the health center's system, allowing healthcare providers to identify patients, manage appointments, and deliver appropriate healthcare services."
+  },
+  {
+    "question": "Where can I register as a patient?",
+    "answer": "You can register through the official Barangay Bagumbayan Health Center website or at the registration desk inside the health center."
+  },
+  {
+    "question": "How can I register online?",
+    "answer": "Visit the official health center website, complete the online registration form, submit the required information, and wait for confirmation."
+  },
+  {
+    "question": "Who is eligible to register in the healthcare appointment system?",
+    "answer": "Residents of Barangay Bagumbayan and other eligible patients, according to the health center's policies, may register."
+  },
+  {
+    "question": "What information is required during registration?",
+    "answer": "You may be asked to provide your full name, address, birth date, gender, contact number, email address, and other necessary personal information."
+  },
+  {
+    "question": "Where can I access the online registration form?",
+    "answer": "The registration form is available through the official Barangay Bagumbayan Health Center website."
+  },
+  {
+    "question": "How long does the registration process take?",
+    "answer": "Online registration usually takes only a few minutes if all required information is complete."
+  },
+  {
+    "question": "Who verifies my registration information?",
+    "answer": "Authorized administrative staff review and verify your submitted information before approval."
+  },
+  {
+    "question": "What happens after I submit my registration?",
+    "answer": "Your information will be reviewed, and once approved, your account will be activated for accessing the healthcare appointment system."
+  },
+  {
+    "question": "How will I know if my registration has been approved?",
+    "answer": "You will receive a notification through the system, email, SMS, or other available communication channels."
+  },
+  {
+    "question": "What should I do if my registration is rejected?",
+    "answer": "Review the reason for rejection, correct any incorrect information, and submit your registration again."
+  },
+  {
+    "question": "Who can help me if I experience registration problems?",
+    "answer": "The health center's administrative staff or technical support team can assist you."
+  },
+  {
+    "question": "What is a QR Code in the healthcare system?",
+    "answer": "A QR Code is a unique digital code assigned to each registered patient for quick identification and faster access to records."
+  },
+  {
+    "question": "How is my QR Code generated?",
+    "answer": "The system automatically generates a unique QR Code after your registration has been approved."
+  },
+  {
+    "question": "Where can I find my QR Code?",
+    "answer": "Your QR Code can be viewed in your patient account or downloaded from the official healthcare system."
+  },
+  {
+    "question": "Who receives a QR Code?",
+    "answer": "Every successfully registered patient receives a unique QR Code."
+  },
+  {
+    "question": "What is the purpose of the QR Code?",
+    "answer": "The QR Code allows healthcare staff to quickly retrieve your patient information and appointment records."
+  },
+  {
+    "question": "How do I use my QR Code during my visit?",
+    "answer": "Present your QR Code to the registration staff for scanning upon arrival at the health center."
+  },
+  {
+    "question": "Where is the QR Code scanned?",
+    "answer": "The QR Code is scanned at the registration or reception area before your consultation."
+  },
+  {
+    "question": "Who scans the QR Code?",
+    "answer": "Authorized healthcare personnel or administrative staff scan the QR Code."
+  },
+  {
+    "question": "What happens after my QR Code is scanned?",
+    "answer": "Your patient profile, appointment details, and medical records become available to authorized healthcare personnel."
+  },
+  {
+    "question": "How does the QR Code improve healthcare services?",
+    "answer": "It reduces manual encoding, speeds up patient identification, and minimizes registration errors."
+  },
+  {
+    "question": "What should I do if I lose my QR Code?",
+    "answer": "Log in to your patient account and download it again, or request assistance from the health center."
+  },
+  {
+    "question": "Who can update my QR Code information?",
+    "answer": "The system automatically updates your linked information whenever authorized staff modify your patient records."
+  },
+  {
+    "question": "What should I do if my QR Code does not scan?",
+    "answer": "Inform the registration staff so they can verify your account manually."
+  },
+  {
+    "question": "How can I download my QR Code?",
+    "answer": "Log in to your patient account and select the option to download or print your QR Code."
+  },
+  {
+    "question": "Where should I keep my QR Code?",
+    "answer": "You may save it on your mobile phone or print a copy for future visits."
+  },
+  {
+    "question": "Who can access my QR Code information?",
+    "answer": "Only authorized healthcare personnel with proper system access can view your information."
+  },
+  {
+    "question": "What security measures protect my QR Code?",
+    "answer": "The healthcare system uses secure authentication, encrypted data storage, and authorized access controls."
+  },
+  {
+    "question": "How often do I need to use my QR Code?",
+    "answer": "You should present it whenever you visit the health center for appointments or healthcare services."
+  },
+  {
+    "question": "What is the AI Assistant?",
+    "answer": "The AI Assistant is an intelligent virtual assistant that helps patients obtain information about healthcare services, appointments, registration, and other frequently asked questions."
+  },
+  {
+    "question": "How can I access the AI Assistant?",
+    "answer": "You can access the AI Assistant through the official Barangay Bagumbayan Health Center website."
+  },
+  {
+    "question": "Where can I find the AI chat feature?",
+    "answer": "The AI chat feature is available on the homepage or support section of the healthcare website."
+  },
+  {
+    "question": "Who can use the AI Assistant?",
+    "answer": "Registered patients, visitors, and anyone seeking healthcare information may use the AI Assistant."
+  },
+  {
+    "question": "What questions can I ask the AI Assistant?",
+    "answer": "You can ask about registration, appointments, healthcare services, schedules, requirements, and other common inquiries."
+  },
+  {
+    "question": "How does the AI Assistant answer questions?",
+    "answer": "The AI Assistant searches its healthcare knowledge base and provides instant responses to user inquiries."
+  },
+  {
+    "question": "What are the benefits of using the AI Assistant?",
+    "answer": "It provides quick responses, reduces waiting time, and offers 24/7 access to general healthcare information."
+  },
+  {
+    "question": "Who developed the AI Assistant?",
+    "answer": "The AI Assistant is integrated into the healthcare appointment system as part of its digital healthcare services."
+  },
+  {
+    "question": "What languages can the AI Assistant support?",
+    "answer": "The AI Assistant may support English, Filipino, or other languages depending on the system configuration."
+  },
+  {
+    "question": "How accurate are the AI Assistant's answers?",
+    "answer": "The AI Assistant provides responses based on the information available in the healthcare system, but healthcare professionals remain the best source for medical advice."
+  },
+  {
+    "question": "What should I do if the AI Assistant cannot answer my question?",
+    "answer": "Contact the health center directly or speak with an authorized healthcare staff member."
+  },
+  {
+    "question": "Where does the AI Assistant get its information?",
+    "answer": "It retrieves information from the healthcare system's official database and approved knowledge resources."
+  },
+  {
+    "question": "Who maintains the AI Assistant?",
+    "answer": "Authorized system administrators maintain and update the AI Assistant."
+  },
+  {
+    "question": "What healthcare information can the AI Assistant provide?",
+    "answer": "It can provide information about services, registration, appointments, clinic schedules, health programs, and general procedures."
+  },
+  {
+    "question": "How does the AI Assistant improve patient experience?",
+    "answer": "It provides immediate assistance, reduces repetitive inquiries, and helps patients navigate the healthcare system more efficiently."
+  },
+  {
+    "question": "What should I avoid sharing with the AI Assistant?",
+    "answer": "Avoid sharing highly sensitive personal information, passwords, or confidential account credentials unless specifically required through secure system features."
+  },
+  {
+    "question": "Who should I contact for technical issues with the AI Assistant?",
+    "answer": "You should contact the health center's technical support team or system administrator."
+  },
+  {
+    "question": "What happens if the AI Assistant is temporarily unavailable?",
+    "answer": "You may use the website's contact information or communicate directly with the health center staff for assistance."
+  },
+  {
+    "question": "How does the AI Assistant help first-time patients?",
+    "answer": "It guides new patients through registration, explains healthcare services, answers common questions, and assists with appointment procedures."
+  },
+  {
+    "question": "Who benefits from the QR Code and AI Assistant features?",
+    "answer": "Patients, healthcare workers, administrative staff, and the entire Barangay Bagumbayan Health Center benefit from faster, more efficient, and more organized healthcare services through these digital technologies."
+  },
+   {
+    "question": "What is the online appointment system?",
+    "answer": "The online appointment system is a web-based platform that allows patients to schedule, manage, and monitor their healthcare appointments without visiting the health center in person."
+  },
+  {
+    "question": "Where can I book an online appointment?",
+    "answer": "You can book an appointment through the official Barangay Bagumbayan Health Center website using your registered patient account."
+  },
+  {
+    "question": "How do I schedule an appointment online?",
+    "answer": "Log in to your account, choose the healthcare service, select an available date and time, and submit your appointment request."
+  },
+  {
+    "question": "Who can use the online appointment system?",
+    "answer": "Registered patients with an active account may use the online appointment system."
+  },
+  {
+    "question": "What healthcare services can be booked online?",
+    "answer": "Patients may book services such as medical consultations, prenatal checkups, immunizations, family planning, nutrition counseling, and other available healthcare services."
+  },
+  {
+    "question": "Where can I view available appointment schedules?",
+    "answer": "Available schedules are displayed in the appointment calendar on the healthcare website."
+  },
+  {
+    "question": "How do I choose my preferred appointment date?",
+    "answer": "Select a date with available time slots from the online appointment calendar."
+  },
+  {
+    "question": "Who approves my appointment request?",
+    "answer": "Authorized healthcare staff review and approve appointment requests based on availability and scheduling policies."
+  },
+  {
+    "question": "What happens after I submit an appointment request?",
+    "answer": "Your request will be reviewed, and you will receive a notification once it has been approved, declined, or requires rescheduling."
+  },
+  {
+    "question": "How will I know if my appointment is confirmed?",
+    "answer": "You will receive a confirmation through your patient account, email, SMS, or other available notification channels."
+  },
+  {
+    "question": "What appointment statuses can I expect?",
+    "answer": "Appointment statuses may include Pending, Approved, Ongoing, Completed, Cancelled, Rejected, or Rescheduled."
+  },
+  {
+    "question": "Where can I check my appointment status?",
+    "answer": "You can view your appointment status by logging into your patient account."
+  },
+  {
+    "question": "How long does appointment approval usually take?",
+    "answer": "Approval time depends on staff availability and appointment volume but is generally processed as soon as possible during office hours."
+  },
+  {
+    "question": "Who should I contact if my appointment remains pending?",
+    "answer": "You may contact the health center's administrative office or appointment staff for assistance."
+  },
+  {
+    "question": "What should I do if my preferred schedule is unavailable?",
+    "answer": "Select another available date and time or wait for newly opened appointment slots."
+  },
+  {
+    "question": "How many appointments can I book at one time?",
+    "answer": "The number of active appointments allowed depends on the health center's scheduling policy."
+  },
+  {
+    "question": "What should I bring to my scheduled appointment?",
+    "answer": "Bring your valid identification, QR Code, previous medical records if applicable, and other required documents."
+  },
+  {
+    "question": "Where should I go when I arrive for my appointment?",
+    "answer": "Proceed to the registration or reception area for check-in before your consultation."
+  },
+  {
+    "question": "How early should I arrive for my appointment?",
+    "answer": "It is recommended to arrive at least 15 to 30 minutes before your scheduled appointment time."
+  },
+  {
+    "question": "Who verifies my appointment upon arrival?",
+    "answer": "Authorized registration staff verify your appointment details using your patient record or QR Code."
+  },
+  {
+    "question": "What happens if I arrive late for my appointment?",
+    "answer": "Late arrivals may experience delays, be accommodated based on availability, or be asked to reschedule according to health center policies."
+  },
+  {
+    "question": "How can I reschedule my appointment?",
+    "answer": "Log in to your account, select your existing appointment, choose a new available schedule, and submit your request."
+  },
+  {
+    "question": "Where can I find the reschedule option?",
+    "answer": "The reschedule option is available within your appointment management page after logging into your account."
+  },
+  {
+    "question": "Who approves rescheduled appointments?",
+    "answer": "Authorized healthcare staff review and approve rescheduling requests."
+  },
+  {
+    "question": "What happens after I request a new schedule?",
+    "answer": "Your request will be evaluated, and you will receive confirmation once the new schedule has been approved."
+  },
+  {
+    "question": "How many times can I reschedule an appointment?",
+    "answer": "The number of allowed reschedules depends on the health center's appointment policies."
+  },
+  {
+    "question": "What should I do if I need to cancel my appointment?",
+    "answer": "Log in to your account and submit a cancellation request as early as possible."
+  },
+  {
+    "question": "Where can I cancel my appointment?",
+    "answer": "The cancellation option is available on your appointment management page."
+  },
+  {
+    "question": "Who receives my cancellation request?",
+    "answer": "The cancellation request is received and processed by the authorized appointment management staff."
+  },
+  {
+    "question": "What happens after I cancel my appointment?",
+    "answer": "Your appointment slot becomes available for other patients, and your account will reflect the cancelled status."
+  },
+  {
+    "question": "How can I book another appointment after cancellation?",
+    "answer": "Simply create a new appointment request using the online appointment system."
+  },
+  {
+    "question": "Where can I view my appointment history?",
+    "answer": "Your appointment history is available in your patient dashboard after logging into your account."
+  },
+  {
+    "question": "Who can access my appointment records?",
+    "answer": "Only you and authorized healthcare personnel can access your appointment records."
+  },
+  {
+    "question": "What information is displayed in my appointment history?",
+    "answer": "It includes the appointment date, time, healthcare service, attending healthcare provider, and appointment status."
+  },
+  {
+    "question": "How do appointment reminders work?",
+    "answer": "The system automatically sends reminders before your scheduled appointment through available notification channels."
+  },
+  {
+    "question": "Where will I receive appointment reminders?",
+    "answer": "Appointment reminders may be sent through email, SMS, or your patient account notifications."
+  },
+  {
+    "question": "Who sends appointment notifications?",
+    "answer": "Notifications are automatically generated by the healthcare appointment system."
+  },
+  {
+    "question": "What should I do if I do not receive a reminder?",
+    "answer": "Log in to your account to verify your appointment or contact the health center for assistance."
+  },
+  {
+    "question": "How can I update my contact information for notifications?",
+    "answer": "You can update your contact details through your patient profile settings or request assistance from authorized staff."
+  },
+  {
+    "question": "Where can I check available healthcare providers?",
+    "answer": "Available healthcare providers may be displayed in the appointment scheduling section, depending on the system configuration."
+  },
+  {
+    "question": "What happens if the healthcare provider becomes unavailable?",
+    "answer": "The health center may assign another qualified healthcare provider or offer you a new appointment schedule."
+  },
+  {
+    "question": "How are appointment conflicts prevented?",
+    "answer": "The system automatically checks schedule availability to avoid overlapping appointments."
+  },
+  {
+    "question": "Who manages the appointment calendar?",
+    "answer": "Authorized administrators and healthcare staff manage the appointment calendar."
+  },
+  {
+    "question": "What should I do if I accidentally book the wrong service?",
+    "answer": "Cancel or reschedule your appointment and select the correct healthcare service."
+  },
+  {
+    "question": "Where can I report appointment scheduling errors?",
+    "answer": "You may report scheduling issues to the administrative office or technical support team."
+  },
+  {
+    "question": "How does the online appointment system reduce waiting time?",
+    "answer": "The system organizes patient schedules in advance, helping minimize long queues and overcrowding at the health center."
+  },
+  {
+    "question": "Who benefits from online appointment scheduling?",
+    "answer": "Patients, healthcare providers, and administrative staff benefit from a more organized and efficient scheduling process."
+  },
+  {
+    "question": "What are the advantages of booking appointments online?",
+    "answer": "Online booking offers convenience, faster scheduling, reduced paperwork, easier appointment tracking, and improved communication."
+  },
+  {
+    "question": "How does the appointment system improve healthcare services?",
+    "answer": "It streamlines scheduling, reduces manual errors, enhances patient management, and allows healthcare staff to serve patients more efficiently."
+  },
+  {
+    "question": "Who should use the online appointment system?",
+    "answer": "All registered patients who wish to access healthcare services conveniently and efficiently are encouraged to use the online appointment system."
+  },
+  {
+    "question": "What is a medical consultation?",
+    "answer": "A medical consultation is a professional assessment where a licensed healthcare provider evaluates your health condition, discusses your symptoms, and recommends appropriate treatment or follow-up care."
+  },
+  {
+    "question": "Where can I receive a medical consultation?",
+    "answer": "You can receive a medical consultation at the Barangay Bagumbayan Health Center during your approved appointment or designated consultation hours."
+  },
+  {
+    "question": "How do I request a medical consultation?",
+    "answer": "You can request a consultation by booking an appointment online or registering at the health center, depending on the available services."
+  },
+  {
+    "question": "Who provides medical consultations?",
+    "answer": "Licensed physicians assigned to the Barangay Bagumbayan Health Center provide medical consultations."
+  },
+  {
+    "question": "What should I prepare before my consultation?",
+    "answer": "Prepare your valid ID, QR Code, previous medical records, laboratory results if available, and a list of your current medications."
+  },
+  {
+    "question": "Where should I wait before seeing the doctor?",
+    "answer": "Wait in the designated waiting area until your name or queue number is called."
+  },
+  {
+    "question": "How does the consultation process begin?",
+    "answer": "The process begins with patient registration or check-in, verification of your appointment, and an initial assessment of your vital signs."
+  },
+  {
+    "question": "Who checks my vital signs before consultation?",
+    "answer": "A nurse, midwife, or other authorized healthcare personnel usually checks your vital signs."
+  },
+  {
+    "question": "What vital signs are usually recorded?",
+    "answer": "Your blood pressure, body temperature, pulse rate, respiratory rate, height, weight, and oxygen saturation may be recorded."
+  },
+  {
+    "question": "How long does a consultation usually take?",
+    "answer": "The duration depends on your health condition and the complexity of the consultation but generally ranges from 10 to 30 minutes."
+  },
+  {
+    "question": "What health concerns can I discuss during my consultation?",
+    "answer": "You may discuss symptoms, illnesses, chronic conditions, preventive care, medications, lifestyle concerns, and general health questions."
+  },
+  {
+    "question": "Where can I ask questions about my diagnosis?",
+    "answer": "You may ask your attending physician or healthcare provider during the consultation."
+  },
+  {
+    "question": "How does the doctor determine my condition?",
+    "answer": "The doctor evaluates your medical history, symptoms, physical examination findings, and available laboratory results."
+  },
+  {
+    "question": "Who can accompany me during my consultation?",
+    "answer": "A parent, guardian, caregiver, or authorized companion may accompany you when necessary, subject to health center policies."
+  },
+  {
+    "question": "What happens after my consultation?",
+    "answer": "The healthcare provider may prescribe medication, recommend laboratory tests, provide health advice, or schedule a follow-up visit."
+  },
+  {
+    "question": "Where can I receive my prescription?",
+    "answer": "Your prescription will be provided by the attending physician after your consultation."
+  },
+  {
+    "question": "How do I understand my prescribed medications?",
+    "answer": "The healthcare provider or pharmacist will explain the dosage, schedule, purpose, and proper use of your medications."
+  },
+  {
+    "question": "Who should I ask if I have questions about my prescription?",
+    "answer": "You should ask your physician, nurse, or pharmacist for clarification."
+  },
+  {
+    "question": "What laboratory tests may be recommended?",
+    "answer": "Depending on your condition, the physician may recommend blood tests, urine tests, or other appropriate diagnostic procedures."
+  },
+  {
+    "question": "Where can I have recommended laboratory tests performed?",
+    "answer": "The physician will advise whether the tests are available at the health center or should be performed at an accredited laboratory."
+  },
+  {
+    "question": "How do I schedule a follow-up consultation?",
+    "answer": "You can schedule a follow-up through the online appointment system or with the assistance of the registration staff."
+  },
+  {
+    "question": "Who determines if I need a follow-up visit?",
+    "answer": "Your attending physician determines whether follow-up care is necessary based on your medical condition."
+  },
+  {
+    "question": "What should I do if my symptoms worsen before my follow-up appointment?",
+    "answer": "Contact the health center immediately or seek emergency medical care if your condition becomes severe."
+  },
+  {
+    "question": "Where can I seek advice about preventive healthcare?",
+    "answer": "You can consult your physician, nurse, or other healthcare professionals at the health center."
+  },
+  {
+    "question": "How does the health center help patients manage chronic illnesses?",
+    "answer": "The health center provides regular monitoring, consultations, health education, medication guidance, and referrals when necessary."
+  },
+  {
+    "question": "Who can receive health counseling services?",
+    "answer": "Any eligible patient needing health education, disease prevention advice, or lifestyle counseling may receive these services."
+  },
+  {
+    "question": "What health education topics are available?",
+    "answer": "Topics include nutrition, exercise, disease prevention, smoking cessation, mental wellness, family planning, and healthy lifestyle practices."
+  },
+  {
+    "question": "Where can patients receive nutrition counseling?",
+    "answer": "Nutrition counseling is provided by qualified healthcare personnel or nutrition program staff at the health center."
+  },
+  {
+    "question": "How can I maintain good health after my consultation?",
+    "answer": "Follow your healthcare provider's advice, take prescribed medications correctly, eat a balanced diet, exercise regularly, and attend follow-up appointments."
+  },
+  {
+    "question": "Who provides health education seminars?",
+    "answer": "Doctors, nurses, midwives, nutritionists, and other healthcare professionals conduct health education activities."
+  },
+  {
+    "question": "What services are available for patients with hypertension?",
+    "answer": "Services may include blood pressure monitoring, medical consultations, medication management, and lifestyle counseling."
+  },
+  {
+    "question": "Where can diabetic patients receive healthcare services?",
+    "answer": "Diabetic patients may receive consultations, monitoring, health education, and referrals through the health center."
+  },
+  {
+    "question": "How are communicable diseases managed?",
+    "answer": "Patients are evaluated, treated, monitored, educated on disease prevention, and referred when specialized care is required."
+  },
+  {
+    "question": "Who receives priority during consultations?",
+    "answer": "Priority may be given to senior citizens, pregnant women, persons with disabilities, infants, and emergency cases according to health center policies."
+  },
+  {
+    "question": "What should I do if I miss my consultation?",
+    "answer": "Log in to the appointment system to reschedule your consultation or contact the health center for assistance."
+  },
+  {
+    "question": "Where can I update my medical history?",
+    "answer": "You can update your medical information during registration or inform the healthcare provider during your consultation."
+  },
+  {
+    "question": "How are patient medical records updated?",
+    "answer": "Authorized healthcare personnel update your records after every consultation, treatment, or healthcare service."
+  },
+  {
+    "question": "Who has access to my medical records during consultation?",
+    "answer": "Only authorized healthcare professionals directly involved in your care may access your medical records."
+  },
+  {
+    "question": "What information is recorded during my consultation?",
+    "answer": "The healthcare provider records your symptoms, diagnosis, treatment plan, prescribed medications, recommendations, and follow-up instructions."
+  },
+  {
+    "question": "Where can I obtain a medical certificate if needed?",
+    "answer": "Medical certificates may be issued by the attending physician when appropriate and according to health center policies."
+  },
+  {
+    "question": "How can I request a referral to another healthcare facility?",
+    "answer": "Discuss your condition with your physician, who may issue a referral if specialized care is required."
+  },
+  {
+    "question": "Who decides whether I need to be referred to a hospital?",
+    "answer": "The attending physician evaluates your condition and determines whether referral to a hospital or specialist is necessary."
+  },
+  {
+    "question": "What happens if specialized treatment is unavailable at the health center?",
+    "answer": "The physician may refer you to an appropriate hospital, specialty clinic, or higher-level healthcare facility."
+  },
+  {
+    "question": "Where can I receive information about available patient services?",
+    "answer": "Information is available at the reception desk, official website, AI Assistant, or from authorized healthcare personnel."
+  },
+  {
+    "question": "How does the health center ensure quality patient care?",
+    "answer": "The health center follows established healthcare standards, clinical guidelines, patient safety procedures, and continuous quality improvement practices."
+  },
+  {
+    "question": "Who should I contact if I have concerns about the healthcare services I received?",
+    "answer": "You may speak with the health center administrator, patient assistance desk, or authorized supervisory staff."
+  },
+  {
+    "question": "What should patients do after receiving treatment?",
+    "answer": "Follow all medical instructions, take medications as prescribed, monitor your condition, and return for follow-up care if advised."
+  },
+  {
+    "question": "Where can I report changes in my medical condition after my consultation?",
+    "answer": "Contact the health center through its official communication channels or return for another consultation if necessary."
+  },
+  {
+    "question": "How does the healthcare appointment system improve medical consultations?",
+    "answer": "It organizes patient schedules, reduces waiting time, improves record management, enhances communication, and allows healthcare providers to prepare for patient visits more efficiently."
+  },
+  {
+    "question": "Who benefits from the medical consultation and patient services offered by the Barangay Bagumbayan Health Center?",
+    "answer": "All registered patients, healthcare providers, administrative staff, and the Barangay Bagumbayan community benefit from accessible, organized, and quality healthcare services."
+  },
+  {
+    "question": "What maternal health services are available at the Barangay Bagumbayan Health Center?",
+    "answer": "The health center provides prenatal care, postnatal care, family planning services, maternal health counseling, nutrition education, and referrals when necessary."
+  },
+  {
+    "question": "Where can pregnant women receive prenatal checkups?",
+    "answer": "Pregnant women can receive prenatal checkups at the Barangay Bagumbayan Health Center during scheduled clinic hours or approved appointments."
+  },
+  {
+    "question": "How do I schedule a prenatal consultation?",
+    "answer": "You can schedule a prenatal consultation through the online appointment system or by registering at the health center."
+  },
+  {
+    "question": "Who should receive prenatal care?",
+    "answer": "All pregnant women are encouraged to receive regular prenatal care throughout their pregnancy."
+  },
+  {
+    "question": "What is the purpose of prenatal care?",
+    "answer": "Prenatal care helps monitor the health of both the mother and the unborn baby, identify potential risks early, and promote a healthy pregnancy."
+  },
+  {
+    "question": "Where should I go for my first prenatal visit?",
+    "answer": "You should visit the maternal health clinic or designated consultation area at the health center."
+  },
+  {
+    "question": "How often should pregnant women attend prenatal checkups?",
+    "answer": "Pregnant women should follow the schedule recommended by their healthcare provider based on their pregnancy and overall health."
+  },
+  {
+    "question": "Who provides prenatal healthcare services?",
+    "answer": "Licensed physicians, nurses, and midwives provide prenatal healthcare services."
+  },
+  {
+    "question": "What should I bring to my prenatal appointment?",
+    "answer": "Bring your valid ID, QR Code, maternal health record, previous laboratory results, and any prescribed medications."
+  },
+  {
+    "question": "How are pregnant women monitored during prenatal visits?",
+    "answer": "Healthcare providers monitor the mother's blood pressure, weight, overall health, fetal growth, and other important pregnancy indicators."
+  },
+  {
+    "question": "What nutrition advice is given during pregnancy?",
+    "answer": "Pregnant women are encouraged to eat a balanced diet, stay hydrated, take prescribed prenatal vitamins, and maintain healthy lifestyle habits."
+  },
+  {
+    "question": "Where can I receive pregnancy counseling?",
+    "answer": "Pregnancy counseling is available at the health center through physicians, nurses, or midwives."
+  },
+  {
+    "question": "How can I recognize signs of a healthy pregnancy?",
+    "answer": "Your healthcare provider will explain normal pregnancy changes, fetal development, and warning signs that require immediate medical attention."
+  },
+  {
+    "question": "Who should I contact if I experience pregnancy complications?",
+    "answer": "Contact the health center immediately or seek emergency medical care if you experience severe symptoms or complications."
+  },
+  {
+    "question": "What happens during a prenatal consultation?",
+    "answer": "The healthcare provider reviews your medical history, checks your vital signs, monitors your pregnancy, and provides health advice and recommendations."
+  },
+  {
+    "question": "Where can mothers receive postnatal care?",
+    "answer": "Postnatal care is available at the Barangay Bagumbayan Health Center after childbirth."
+  },
+  {
+    "question": "How soon should mothers receive postnatal care?",
+    "answer": "Mothers should attend postnatal checkups according to the schedule recommended by their healthcare provider after delivery."
+  },
+  {
+    "question": "Who should receive postnatal healthcare services?",
+    "answer": "All mothers who have recently given birth should receive postnatal healthcare services."
+  },
+  {
+    "question": "What is the purpose of postnatal care?",
+    "answer": "Postnatal care helps monitor the recovery of the mother, assess the baby's health, provide breastfeeding support, and identify any complications."
+  },
+  {
+    "question": "How does the health center support breastfeeding mothers?",
+    "answer": "The health center provides breastfeeding education, counseling, and guidance on proper infant feeding practices."
+  },
+  {
+    "question": "What child healthcare services are available?",
+    "answer": "Child healthcare services include growth monitoring, immunization, nutrition counseling, medical consultations, and health education."
+  },
+  {
+    "question": "Where can infants receive regular health checkups?",
+    "answer": "Infants can receive regular health checkups at the child health clinic or pediatric consultation area of the health center."
+  },
+  {
+    "question": "How often should children have health checkups?",
+    "answer": "Children should follow the schedule recommended by healthcare providers based on their age and health needs."
+  },
+  {
+    "question": "Who monitors a child's growth and development?",
+    "answer": "Physicians, nurses, and midwives monitor a child's physical growth and developmental milestones."
+  },
+  {
+    "question": "What is growth monitoring?",
+    "answer": "Growth monitoring is the regular measurement of a child's height, weight, and development to ensure healthy growth."
+  },
+  {
+    "question": "Where can parents receive nutrition advice for their children?",
+    "answer": "Nutrition counseling is available through healthcare professionals at the health center."
+  },
+  {
+    "question": "How can parents support healthy child development?",
+    "answer": "Parents can provide proper nutrition, regular medical checkups, complete immunizations, adequate sleep, and a safe environment."
+  },
+  {
+    "question": "Who can receive nutrition counseling?",
+    "answer": "Pregnant women, breastfeeding mothers, parents, guardians, and children may receive nutrition counseling."
+  },
+  {
+    "question": "What family planning services are available?",
+    "answer": "Family planning services include counseling, education, and information about available family planning methods."
+  },
+  {
+    "question": "Where can couples receive family planning counseling?",
+    "answer": "Family planning counseling is available at the health center through trained healthcare providers."
+  },
+  {
+    "question": "How do I request family planning services?",
+    "answer": "You can request family planning services by scheduling an appointment or visiting the health center during clinic hours."
+  },
+  {
+    "question": "Who can receive family planning counseling?",
+    "answer": "Married couples, individuals of reproductive age, and qualified patients may receive family planning counseling according to health center policies."
+  },
+  {
+    "question": "What topics are discussed during family planning counseling?",
+    "answer": "Healthcare providers discuss reproductive health, birth spacing, available family planning methods, benefits, risks, and informed decision-making."
+  },
+  {
+    "question": "Where can adolescents receive reproductive health education?",
+    "answer": "Reproductive health education may be provided through health education programs and counseling sessions at the health center."
+  },
+  {
+    "question": "How does the health center promote responsible parenthood?",
+    "answer": "The health center provides education, counseling, family planning services, and maternal and child healthcare programs."
+  },
+  {
+    "question": "Who provides reproductive health education?",
+    "answer": "Licensed healthcare professionals, including doctors, nurses, and midwives, provide reproductive health education."
+  },
+  {
+    "question": "What health education programs are available for families?",
+    "answer": "Programs may include maternal health, child nutrition, breastfeeding, parenting, family planning, disease prevention, and healthy lifestyle education."
+  },
+  {
+    "question": "Where can parents learn about newborn care?",
+    "answer": "Parents can attend newborn care counseling sessions and educational programs at the health center."
+  },
+  {
+    "question": "How should parents care for a newborn baby?",
+    "answer": "Parents should follow healthcare providers' advice on breastfeeding, hygiene, immunization, nutrition, safe sleeping practices, and regular checkups."
+  },
+  {
+    "question": "Who should accompany children during health center visits?",
+    "answer": "A parent, legal guardian, or authorized caregiver should accompany children during healthcare visits."
+  },
+  {
+    "question": "What should parents do if their child becomes sick?",
+    "answer": "Parents should seek medical consultation at the health center or visit an appropriate healthcare facility if the illness is serious."
+  },
+  {
+    "question": "Where can children receive developmental assessments?",
+    "answer": "Developmental assessments may be conducted during routine child health consultations at the health center."
+  },
+  {
+    "question": "How are children's medical records maintained?",
+    "answer": "Authorized healthcare personnel securely maintain children's health records in the healthcare information system."
+  },
+  {
+    "question": "Who has access to a child's medical records?",
+    "answer": "Only authorized healthcare professionals and the child's parent or legal guardian, as permitted by applicable policies, may access the records."
+  },
+  {
+    "question": "What happens if a child misses a scheduled health appointment?",
+    "answer": "Parents or guardians should reschedule the appointment through the online system or contact the health center."
+  },
+  {
+    "question": "Where can mothers receive parenting advice?",
+    "answer": "Parenting advice is available through physicians, nurses, midwives, and family health education programs at the health center."
+  },
+  {
+    "question": "How does the health center support family wellness?",
+    "answer": "The health center supports family wellness by providing preventive healthcare, health education, maternal services, child healthcare, nutrition counseling, and family planning programs."
+  },
+  {
+    "question": "Who benefits from maternal and child healthcare programs?",
+    "answer": "Pregnant women, mothers, infants, children, parents, caregivers, and families benefit from these healthcare programs."
+  },
+  {
+    "question": "What are the benefits of regular maternal and child healthcare visits?",
+    "answer": "Regular visits help detect health concerns early, monitor growth and development, provide preventive care, and promote the health of both mother and child."
+  },
+  {
+    "question": "How does the Barangay Bagumbayan Health Center improve maternal, child, and family health?",
+    "answer": "The health center provides accessible, comprehensive, and community-based healthcare services that support healthy pregnancies, safe motherhood, child development, responsible parenthood, and overall family well-being."
+  },
+  {
+    "question": "What immunization services are available at the Barangay Bagumbayan Health Center?",
+    "answer": "The health center provides routine childhood immunizations, adult vaccinations, recommended booster doses, and other vaccines available under the Department of Health (DOH) immunization program."
+  },
+  {
+    "question": "Where can I receive vaccinations?",
+    "answer": "Vaccinations are administered at the immunization clinic or designated vaccination area of the Barangay Bagumbayan Health Center."
+  },
+  {
+    "question": "How do I schedule an immunization appointment?",
+    "answer": "You can schedule an appointment through the online healthcare system or by visiting the health center during clinic hours."
+  },
+  {
+    "question": "Who should receive routine immunizations?",
+    "answer": "Infants, children, adolescents, adults, pregnant women, senior citizens, and other eligible individuals should receive immunizations according to recommended vaccination schedules."
+  },
+  {
+    "question": "What is the purpose of immunization?",
+    "answer": "Immunization helps protect individuals and communities from vaccine-preventable diseases by strengthening the body's immune system."
+  },
+  {
+    "question": "Where can I check the recommended vaccination schedule?",
+    "answer": "You can ask healthcare professionals at the health center or consult the official immunization schedule provided by the Department of Health."
+  },
+  {
+    "question": "How do vaccines work?",
+    "answer": "Vaccines stimulate the immune system to recognize and fight specific diseases without causing the illness itself."
+  },
+  {
+    "question": "Who administers vaccines at the health center?",
+    "answer": "Licensed nurses, physicians, or other authorized healthcare professionals administer vaccines."
+  },
+  {
+    "question": "What should I bring for my vaccination appointment?",
+    "answer": "Bring your valid ID, QR Code, vaccination card, and any required medical records."
+  },
+  {
+    "question": "How long does the vaccination process usually take?",
+    "answer": "The vaccination itself takes only a few minutes, but patients may be advised to remain for a short observation period afterward."
+  },
+  {
+    "question": "What should I do before receiving a vaccine?",
+    "answer": "Inform the healthcare provider about your medical history, allergies, current medications, or previous reactions to vaccines."
+  },
+  {
+    "question": "Where are vaccination records kept?",
+    "answer": "Vaccination records are securely maintained in the healthcare information system and recorded on your vaccination card."
+  },
+  {
+    "question": "How can I obtain a copy of my vaccination record?",
+    "answer": "You may request a copy through the health center, subject to its record release procedures."
+  },
+  {
+    "question": "Who can access my vaccination records?",
+    "answer": "Only authorized healthcare personnel and the patient or authorized representative may access vaccination records."
+  },
+  {
+    "question": "What should I do if I miss a scheduled vaccination?",
+    "answer": "Contact the health center to reschedule your vaccination as soon as possible."
+  },
+  {
+    "question": "Where can children receive routine immunizations?",
+    "answer": "Children can receive routine immunizations at the child immunization clinic of the health center."
+  },
+  {
+    "question": "How often should children receive vaccinations?",
+    "answer": "Children should follow the recommended immunization schedule based on their age and healthcare provider's advice."
+  },
+  {
+    "question": "Who determines which vaccines I need?",
+    "answer": "Your physician or healthcare provider determines the appropriate vaccines based on your age, health condition, and immunization history."
+  },
+  {
+    "question": "What happens after I receive a vaccine?",
+    "answer": "Healthcare personnel may observe you briefly for any immediate reactions and provide post-vaccination instructions."
+  },
+  {
+    "question": "How should I care for myself after vaccination?",
+    "answer": "Follow your healthcare provider's instructions, stay hydrated, monitor for mild side effects, and seek medical attention if severe reactions occur."
+  },
+  {
+    "question": "What diseases can vaccines help prevent?",
+    "answer": "Vaccines help prevent diseases such as measles, polio, hepatitis, tetanus, influenza, and other vaccine-preventable illnesses included in national immunization programs."
+  },
+  {
+    "question": "Where can I learn about vaccine safety?",
+    "answer": "Vaccine safety information is available from healthcare professionals, official health education materials, and Department of Health resources."
+  },
+  {
+    "question": "How safe are vaccines?",
+    "answer": "Vaccines undergo extensive testing and continuous monitoring to ensure their safety and effectiveness before being recommended for public use."
+  },
+  {
+    "question": "Who should consult a healthcare provider before vaccination?",
+    "answer": "Individuals with allergies, chronic illnesses, weakened immune systems, or previous vaccine reactions should consult a healthcare provider before vaccination."
+  },
+  {
+    "question": "What are common side effects of vaccines?",
+    "answer": "Common side effects may include mild pain, redness, swelling at the injection site, low-grade fever, or temporary fatigue."
+  },
+  {
+    "question": "Where should I seek help if I experience severe reactions after vaccination?",
+    "answer": "Seek immediate medical attention at the health center, the nearest hospital, or an emergency healthcare facility."
+  },
+  {
+    "question": "How does the health center monitor vaccine safety?",
+    "answer": "Healthcare professionals observe patients after vaccination and document any reported adverse events according to established health protocols."
+  },
+  {
+    "question": "Who reports vaccine-related adverse events?",
+    "answer": "Healthcare providers document and report adverse events following immunization through appropriate public health reporting systems."
+  },
+  {
+    "question": "What disease prevention programs are available?",
+    "answer": "The health center conducts programs on immunization, tuberculosis control, dengue prevention, hypertension screening, diabetes awareness, and other public health initiatives."
+  },
+  {
+    "question": "Where can I receive health education on disease prevention?",
+    "answer": "Health education is provided through seminars, counseling sessions, community outreach programs, and official educational materials."
+  },
+  {
+    "question": "How can I help prevent the spread of infectious diseases?",
+    "answer": "Practice proper hand hygiene, maintain good personal hygiene, receive recommended vaccinations, follow public health guidelines, and seek medical care when necessary."
+  },
+  {
+    "question": "Who is most vulnerable to infectious diseases?",
+    "answer": "Infants, young children, older adults, pregnant women, persons with disabilities, and individuals with weakened immune systems are generally more vulnerable."
+  },
+  {
+    "question": "What is tuberculosis (TB)?",
+    "answer": "Tuberculosis is a contagious bacterial infection that primarily affects the lungs and requires early diagnosis and appropriate treatment."
+  },
+  {
+    "question": "Where can I receive tuberculosis screening?",
+    "answer": "Tuberculosis screening and consultation are available at the Barangay Bagumbayan Health Center."
+  },
+  {
+    "question": "How can tuberculosis be prevented?",
+    "answer": "Tuberculosis prevention includes early detection, completing prescribed treatment, practicing proper cough etiquette, maintaining good ventilation, and following healthcare advice."
+  },
+  {
+    "question": "Who should be screened for tuberculosis?",
+    "answer": "Individuals with persistent cough, exposure to TB patients, or symptoms suggestive of tuberculosis should consult a healthcare provider."
+  },
+  {
+    "question": "What is dengue fever?",
+    "answer": "Dengue fever is a mosquito-borne viral illness that can cause fever, headache, muscle pain, rash, and, in severe cases, serious complications."
+  },
+  {
+    "question": "Where can I receive information about dengue prevention?",
+    "answer": "Dengue prevention information is available through health center staff, community education campaigns, and official health advisories."
+  },
+  {
+    "question": "How can I prevent dengue?",
+    "answer": "Prevent dengue by eliminating mosquito breeding sites, using mosquito repellents, wearing protective clothing, and keeping surroundings clean."
+  },
+  {
+    "question": "Who is at risk of dengue infection?",
+    "answer": "Anyone living in or visiting areas where dengue-carrying mosquitoes are present may be at risk."
+  },
+  {
+    "question": "What lifestyle habits help prevent diseases?",
+    "answer": "Eating a balanced diet, exercising regularly, getting enough sleep, avoiding smoking, limiting alcohol intake, and attending regular health checkups promote good health."
+  },
+  {
+    "question": "Where can I participate in health promotion activities?",
+    "answer": "Health promotion activities are conducted at the health center and through community outreach programs within Barangay Bagumbayan."
+  },
+  {
+    "question": "How does the health center respond to disease outbreaks?",
+    "answer": "The health center coordinates with local health authorities to provide surveillance, public education, preventive measures, and appropriate healthcare services."
+  },
+  {
+    "question": "Who coordinates disease prevention programs?",
+    "answer": "Physicians, nurses, midwives, Barangay Health Workers, and local government health officials coordinate disease prevention programs."
+  },
+  {
+    "question": "What health screenings are available at the health center?",
+    "answer": "Available screenings may include blood pressure checks, blood glucose testing, nutritional assessment, tuberculosis screening, and other preventive health evaluations."
+  },
+  {
+    "question": "Where can I receive health counseling about disease prevention?",
+    "answer": "Health counseling is available during consultations and through health education services at the health center."
+  },
+  {
+    "question": "How can families help prevent the spread of illnesses at home?",
+    "answer": "Families can maintain cleanliness, encourage vaccination, practice proper hygiene, isolate sick family members when appropriate, and seek timely medical care."
+  },
+  {
+    "question": "Who benefits from immunization and disease prevention programs?",
+    "answer": "Children, adults, senior citizens, pregnant women, families, and the entire Barangay Bagumbayan community benefit from these programs."
+  },
+  {
+    "question": "What are the benefits of regular immunization and disease prevention activities?",
+    "answer": "Regular participation helps reduce disease transmission, prevents serious illnesses, protects vulnerable populations, and promotes a healthier community."
+  },
+  {
+    "question": "How does the Barangay Bagumbayan Health Center promote immunization and disease prevention?",
+    "answer": "The health center provides accessible vaccination services, preventive health programs, community education, disease surveillance, health counseling, and coordinated public health initiatives to protect the well-being of the community."
+  },
+    {
+    "question": "What healthcare services are available for senior citizens?",
+    "answer": "The health center provides medical consultations, health assessments, maintenance checkups, immunization, health education, medication counseling, and referrals for senior citizens."
+  },
+  {
+    "question": "Where can senior citizens receive healthcare services?",
+    "answer": "Senior citizens may receive healthcare services at the Barangay Bagumbayan Health Center during regular clinic hours or scheduled appointments."
+  },
+  {
+    "question": "How can a senior citizen schedule a medical consultation?",
+    "answer": "A senior citizen may schedule an appointment through the online appointment system or by visiting the health center."
+  },
+  {
+    "question": "Who is considered a senior citizen?",
+    "answer": "A senior citizen is an individual who is sixty (60) years old or above, in accordance with Philippine laws."
+  },
+  {
+    "question": "What documents should senior citizens bring during their visit?",
+    "answer": "Senior citizens should bring a valid ID, Senior Citizen ID (if available), QR Code, and previous medical records when applicable."
+  },
+  {
+    "question": "Where can senior citizens ask for assistance at the health center?",
+    "answer": "They may ask for assistance at the reception desk or from any authorized healthcare staff."
+  },
+  {
+    "question": "How does the health center prioritize senior citizens?",
+    "answer": "Senior citizens may receive priority assistance and services in accordance with applicable government policies and health center procedures."
+  },
+  {
+    "question": "Who provides healthcare services for senior citizens?",
+    "answer": "Licensed physicians, nurses, midwives, and other authorized healthcare professionals provide healthcare services for senior citizens."
+  },
+  {
+    "question": "What health conditions are commonly monitored among senior citizens?",
+    "answer": "Commonly monitored conditions include hypertension, diabetes, arthritis, heart disease, respiratory illnesses, and other age-related health concerns."
+  },
+  {
+    "question": "How often should senior citizens undergo medical checkups?",
+    "answer": "Senior citizens should have regular medical checkups as recommended by their healthcare provider."
+  },
+  {
+    "question": "What healthcare services are available for Persons with Disabilities (PWDs)?",
+    "answer": "PWDs may receive medical consultations, preventive healthcare, health education, referrals, and other available healthcare services."
+  },
+  {
+    "question": "Where can Persons with Disabilities receive medical consultations?",
+    "answer": "PWDs can receive consultations at the Barangay Bagumbayan Health Center through scheduled appointments or walk-in services when available."
+  },
+  {
+    "question": "How can a PWD request healthcare assistance?",
+    "answer": "A PWD may request assistance from the reception desk, healthcare staff, or authorized personnel upon arrival."
+  },
+  {
+    "question": "Who qualifies as a Person with Disability (PWD)?",
+    "answer": "A Person with Disability is an individual recognized under applicable Philippine laws as having a long-term physical, mental, intellectual, or sensory impairment."
+  },
+  {
+    "question": "What identification should a PWD bring during a visit?",
+    "answer": "A PWD should bring a valid ID, PWD ID (if available), QR Code, and relevant medical records."
+  },
+  {
+    "question": "Where can caregivers obtain information about PWD healthcare services?",
+    "answer": "Caregivers may inquire at the reception desk, information counter, or through the official health center website."
+  },
+  {
+    "question": "How does the health center support accessibility for PWDs?",
+    "answer": "The health center strives to provide accessible facilities, priority assistance, and appropriate accommodations whenever possible."
+  },
+  {
+    "question": "Who can accompany a senior citizen or PWD during a consultation?",
+    "answer": "A family member, legal guardian, caregiver, or authorized companion may accompany the patient when necessary."
+  },
+  {
+    "question": "What should caregivers do before accompanying a patient?",
+    "answer": "Caregivers should ensure that all required documents, medications, and medical records are available before the appointment."
+  },
+  {
+    "question": "How does the health center promote healthy aging?",
+    "answer": "The health center promotes healthy aging through regular checkups, disease prevention, health education, nutrition counseling, physical activity promotion, and wellness programs."
+  },
+  {
+    "question": "What are community health programs?",
+    "answer": "Community health programs are organized healthcare activities designed to improve the overall health and well-being of Barangay Bagumbayan residents."
+  },
+  {
+    "question": "Where are community health programs conducted?",
+    "answer": "Programs may be conducted at the health center, barangay facilities, schools, community centers, or other designated outreach locations."
+  },
+  {
+    "question": "How can residents participate in community health programs?",
+    "answer": "Residents may register through the health center, attend scheduled activities, or participate in community outreach events."
+  },
+  {
+    "question": "Who can join community health programs?",
+    "answer": "Eligible residents of Barangay Bagumbayan, including children, adults, senior citizens, pregnant women, and PWDs, may participate depending on the program."
+  },
+  {
+    "question": "What community health education programs are available?",
+    "answer": "Programs may include health seminars, nutrition education, disease prevention campaigns, mental wellness education, and healthy lifestyle promotion."
+  },
+  {
+    "question": "Where can I view upcoming community health activities?",
+    "answer": "Upcoming activities may be announced on the health center's bulletin board, official website, social media pages, or community announcements."
+  },
+  {
+    "question": "How are community outreach programs organized?",
+    "answer": "Community outreach programs are organized by the health center in coordination with local government officials and community partners."
+  },
+  {
+    "question": "Who conducts community health education?",
+    "answer": "Physicians, nurses, midwives, nutritionists, Barangay Health Workers, and other qualified healthcare professionals conduct health education activities."
+  },
+  {
+    "question": "What wellness programs are available for adults?",
+    "answer": "Wellness programs may include blood pressure monitoring, diabetes awareness, nutrition counseling, exercise promotion, smoking cessation, and preventive health education."
+  },
+  {
+    "question": "How does the health center promote healthy lifestyles?",
+    "answer": "The health center encourages balanced nutrition, regular physical activity, preventive healthcare, proper hygiene, stress management, and routine medical checkups."
+  },
+  {
+    "question": "What nutrition programs are available in the community?",
+    "answer": "Nutrition programs may include dietary counseling, feeding programs, nutrition assessments, and healthy eating education."
+  },
+  {
+    "question": "Where can families receive health education?",
+    "answer": "Families can receive health education through seminars, counseling sessions, community outreach programs, and healthcare consultations."
+  },
+  {
+    "question": "How can I volunteer in community health activities?",
+    "answer": "Interested individuals may inquire with the health center regarding volunteer opportunities and community health initiatives."
+  },
+  {
+    "question": "Who coordinates community health activities?",
+    "answer": "Community health activities are coordinated by healthcare professionals, Barangay Health Workers, and local government officials."
+  },
+  {
+    "question": "What environmental health programs are available?",
+    "answer": "Environmental health programs may include sanitation campaigns, waste management education, dengue prevention, and clean community initiatives."
+  },
+  {
+    "question": "Where can I report community health concerns?",
+    "answer": "Community health concerns may be reported to the Barangay Bagumbayan Health Center or the barangay office."
+  },
+  {
+    "question": "How does the health center respond to community health concerns?",
+    "answer": "The health center evaluates reported concerns, coordinates with appropriate agencies, conducts investigations when necessary, and implements health interventions."
+  },
+  {
+    "question": "Who benefits from community health outreach programs?",
+    "answer": "All residents of Barangay Bagumbayan benefit from community health outreach activities and preventive healthcare services."
+  },
+  {
+    "question": "What health awareness campaigns are conducted annually?",
+    "answer": "Annual campaigns may include immunization drives, dengue awareness, nutrition month activities, tuberculosis awareness, hypertension screening, and healthy lifestyle promotion."
+  },
+  {
+    "question": "Where can students participate in health education activities?",
+    "answer": "Students may participate through school-based health programs or community health education activities organized by the health center."
+  },
+  {
+    "question": "How does the health center encourage community participation?",
+    "answer": "The health center encourages participation through public announcements, educational campaigns, outreach activities, and partnerships with community organizations."
+  },
+  {
+    "question": "Who can suggest new community health programs?",
+    "answer": "Residents, community leaders, healthcare workers, and local government officials may suggest new health programs."
+  },
+  {
+    "question": "What role do Barangay Health Workers play in the community?",
+    "answer": "Barangay Health Workers assist in health education, patient monitoring, community outreach, disease prevention, and healthcare promotion."
+  },
+  {
+    "question": "Where can I obtain educational materials about community health?",
+    "answer": "Educational materials are available at the health center, community outreach events, and the official healthcare website."
+  },
+  {
+    "question": "How does technology improve community healthcare services?",
+    "answer": "Technology supports online appointments, digital health records, QR Code identification, AI-assisted information services, and efficient communication."
+  },
+  {
+    "question": "Who manages community health information?",
+    "answer": "Authorized healthcare personnel and health center administrators manage community health information in accordance with applicable privacy regulations."
+  },
+  {
+    "question": "What are the benefits of participating in community health programs?",
+    "answer": "Participation promotes disease prevention, healthy lifestyles, early detection of illnesses, increased health awareness, and improved community well-being."
+  },
+  {
+    "question": "Where can residents provide feedback about community programs?",
+    "answer": "Residents may submit feedback through the health center's website, suggestion box, patient surveys, or directly to authorized staff."
+  },
+  {
+    "question": "How does the Barangay Bagumbayan Health Center strengthen community health?",
+    "answer": "The health center strengthens community health by delivering accessible healthcare services, conducting preventive health programs, promoting health education, and encouraging community participation."
+  },
+  {
+    "question": "Who benefits from the senior citizen, PWD, and community health programs?",
+    "answer": "Senior citizens, Persons with Disabilities, families, children, healthcare workers, and all residents of Barangay Bagumbayan benefit from these inclusive healthcare programs."
+  },
+  {
+    "question": "What are medical records?",
+    "answer": "Medical records are confidential documents that contain a patient's personal information, medical history, consultation notes, diagnoses, treatments, prescriptions, laboratory results, and other healthcare-related information."
+  },
+  {
+    "question": "Where are patient medical records stored?",
+    "answer": "Patient medical records are securely stored in the Barangay Bagumbayan Health Center's healthcare information system and, when applicable, in authorized physical records."
+  },
+  {
+    "question": "How are medical records created?",
+    "answer": "Medical records are created when a patient registers and are updated during every consultation, treatment, laboratory request, and healthcare service."
+  },
+  {
+    "question": "Who is responsible for maintaining medical records?",
+    "answer": "Authorized healthcare professionals and administrative personnel are responsible for maintaining accurate and secure medical records."
+  },
+  {
+    "question": "What information is included in my medical record?",
+    "answer": "Your medical record may include your personal details, consultation history, diagnoses, medications, allergies, laboratory results, immunization history, and appointment records."
+  },
+  {
+    "question": "Where can I request a copy of my medical record?",
+    "answer": "You may request a copy from the health center's records office or authorized administrative staff, subject to applicable policies and requirements."
+  },
+  {
+    "question": "How can I update my personal information?",
+    "answer": "You can update your personal information through your patient account or by requesting assistance from authorized health center personnel."
+  },
+  {
+    "question": "Who is allowed to access my medical records?",
+    "answer": "Only authorized healthcare professionals, authorized administrative personnel, and the patient or legally authorized representative may access medical records."
+  },
+  {
+    "question": "What should I do if I notice incorrect information in my medical record?",
+    "answer": "Report the incorrect information immediately to the health center so authorized staff can review and correct your records if appropriate."
+  },
+  {
+    "question": "How often are medical records updated?",
+    "answer": "Medical records are updated whenever you receive healthcare services, consultations, treatments, or other authorized medical transactions."
+  },
+  {
+    "question": "What is patient privacy?",
+    "answer": "Patient privacy refers to the protection of your personal and medical information from unauthorized access, disclosure, or misuse."
+  },
+  {
+    "question": "Where is my personal information protected?",
+    "answer": "Your personal information is protected within the healthcare information system using appropriate administrative, technical, and physical security measures."
+  },
+  {
+    "question": "How does the health center protect patient information?",
+    "answer": "The health center protects patient information through secure login systems, access controls, encrypted data storage where applicable, and authorized personnel access only."
+  },
+  {
+    "question": "Who can view my consultation history?",
+    "answer": "Only you and authorized healthcare professionals involved in your care can view your consultation history."
+  },
+  {
+    "question": "What privacy laws protect my health information?",
+    "answer": "Patient information is handled in accordance with applicable Philippine laws and regulations on data privacy and healthcare confidentiality."
+  },
+  {
+    "question": "Where can I report a privacy concern?",
+    "answer": "You may report privacy concerns to the health center administrator or the designated data privacy officer."
+  },
+  {
+    "question": "How do I give consent for the use of my information?",
+    "answer": "Consent is generally obtained during patient registration or through consent forms before specific healthcare services are provided."
+  },
+  {
+    "question": "Who may receive my medical information with my permission?",
+    "answer": "Individuals or healthcare providers authorized by you, or as permitted by law, may receive your medical information."
+  },
+  {
+    "question": "What should I do if I forget my account password?",
+    "answer": "Use the \"Forgot Password\" feature on the website or contact technical support for assistance."
+  },
+  {
+    "question": "How can I keep my account secure?",
+    "answer": "Use a strong password, keep your login credentials confidential, log out after using shared devices, and update your password regularly."
+  },
+  {
+    "question": "What types of notifications does the healthcare system send?",
+    "answer": "The system may send appointment confirmations, reminders, schedule changes, account updates, announcements, and other important healthcare notifications."
+  },
+  {
+    "question": "Where will I receive system notifications?",
+    "answer": "Notifications may be delivered through your patient dashboard, email, SMS, or other supported communication channels."
+  },
+  {
+    "question": "How do appointment reminders work?",
+    "answer": "The system automatically sends reminders before your scheduled appointment to help you remember your visit."
+  },
+  {
+    "question": "Who sends appointment notifications?",
+    "answer": "Appointment notifications are automatically generated by the healthcare appointment system."
+  },
+  {
+    "question": "What happens if my appointment is approved?",
+    "answer": "You will receive a notification confirming your appointment schedule and other relevant details."
+  },
+  {
+    "question": "Where can I check my notification history?",
+    "answer": "You can view your notification history by logging into your patient account."
+  },
+  {
+    "question": "How will I know if my appointment has been rescheduled?",
+    "answer": "The healthcare system will send you a notification informing you of the updated appointment schedule."
+  },
+  {
+    "question": "Who receives system announcements?",
+    "answer": "Registered patients and authorized users may receive announcements through the healthcare system."
+  },
+  {
+    "question": "What should I do if I do not receive appointment notifications?",
+    "answer": "Verify your contact information in your account and contact the health center if the problem continues."
+  },
+  {
+    "question": "How can I update my email address or mobile number?",
+    "answer": "You can update your contact information through your patient profile or request assistance from authorized staff."
+  },
+  {
+    "question": "What notifications are sent after a consultation?",
+    "answer": "Depending on the system, you may receive follow-up reminders, health recommendations, appointment schedules, or patient satisfaction surveys."
+  },
+  {
+    "question": "Where can I read health advisories issued by the health center?",
+    "answer": "Health advisories may be posted on the official website, patient dashboard, social media pages, or bulletin boards."
+  },
+  {
+    "question": "How are emergency announcements communicated?",
+    "answer": "Emergency announcements may be sent through website notices, SMS, email, official social media pages, or other communication channels."
+  },
+  {
+    "question": "Who manages system notifications?",
+    "answer": "Authorized system administrators manage the notification system."
+  },
+  {
+    "question": "What happens if I change my contact information?",
+    "answer": "Future notifications will be sent using your updated contact details once they are verified and saved."
+  },
+  {
+    "question": "Where can I enable or disable notification preferences?",
+    "answer": "Notification preferences may be managed through your patient account settings, if available."
+  },
+  {
+    "question": "How does the healthcare system protect notification privacy?",
+    "answer": "Notifications are sent only to the contact information registered in your account and are handled using secure communication methods whenever possible."
+  },
+  {
+    "question": "Who should I contact if I receive incorrect notifications?",
+    "answer": "Contact the health center's administrative office or technical support team for assistance."
+  },
+  {
+    "question": "What should I do if I accidentally delete a notification?",
+    "answer": "You may check your notification history in your patient account or contact the health center if necessary."
+  },
+  {
+    "question": "How long are notifications stored in the system?",
+    "answer": "Notification history is retained according to the health center's data retention and system management policies."
+  },
+  {
+    "question": "What medical information can be viewed through my patient account?",
+    "answer": "Depending on your access level, you may view your profile, appointments, consultation history, immunization records, and other authorized healthcare information."
+  },
+  {
+    "question": "Where can I review my consultation history online?",
+    "answer": "You can review your consultation history by logging into your patient account."
+  },
+  {
+    "question": "How do healthcare providers maintain confidentiality?",
+    "answer": "Healthcare providers follow professional ethics, confidentiality policies, and applicable privacy laws when handling patient information."
+  },
+  {
+    "question": "Who ensures compliance with data privacy policies?",
+    "answer": "Health center administrators, authorized personnel, and designated data privacy officers help ensure compliance with applicable regulations."
+  },
+  {
+    "question": "What should I do if I suspect unauthorized access to my account?",
+    "answer": "Change your password immediately and report the incident to the health center's technical support team."
+  },
+  {
+    "question": "Where can I report a technical problem related to my medical records?",
+    "answer": "You may report technical issues to the system administrator or the health center's technical support staff."
+  },
+  {
+    "question": "How does the healthcare system improve medical record management?",
+    "answer": "The system digitizes patient records, reduces paperwork, improves record accuracy, enables faster retrieval, and supports efficient healthcare delivery."
+  },
+  {
+    "question": "Who benefits from secure medical records and notifications?",
+    "answer": "Patients, healthcare providers, administrative personnel, and the health center all benefit from secure and efficient information management."
+  },
+  {
+    "question": "What are the benefits of electronic medical records?",
+    "answer": "Electronic medical records improve accuracy, reduce duplicate information, speed up patient care, enhance security, and support better healthcare decision-making."
+  },
+  {
+    "question": "How does the Barangay Bagumbayan Health Center protect patient records and communication?",
+    "answer": "The health center safeguards patient information through secure digital systems, authorized access controls, privacy policies, regular system maintenance, and responsible handling of healthcare information."
+  },
+   {
+    "question": "What is the official Barangay Bagumbayan Health Center website?",
+    "answer": "The official website is the online platform where patients can access healthcare services, register, book appointments, manage accounts, and receive health-related information."
+  },
+  {
+    "question": "Where can I access the healthcare website?",
+    "answer": "You can access the healthcare website using a computer, laptop, tablet, or smartphone with an internet connection."
+  },
+  {
+    "question": "How do I create a patient account?",
+    "answer": "Click the \"Register\" button on the website, complete the registration form with the required information, and submit your application for verification."
+  },
+  {
+    "question": "Who can create an account on the healthcare website?",
+    "answer": "Eligible patients and residents who meet the health center's registration requirements may create an account."
+  },
+  {
+    "question": "What information is required to create an account?",
+    "answer": "You may need to provide your full name, birth date, address, contact number, email address, username, and password."
+  },
+  {
+    "question": "Where can I log in to my account?",
+    "answer": "You can log in through the Login page on the official healthcare website using your registered username or email address and password."
+  },
+  {
+    "question": "How do I log in to the healthcare system?",
+    "answer": "Enter your registered username or email address and password, then click the \"Login\" button."
+  },
+  {
+    "question": "Who can help me if I cannot log in?",
+    "answer": "You may contact the health center's technical support team or administrative staff for assistance."
+  },
+  {
+    "question": "What should I do if I forget my password?",
+    "answer": "Click the \"Forgot Password\" link and follow the instructions to reset your password securely."
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "Verify your registered email address or mobile number, follow the password reset instructions, and create a new secure password."
+  },
+  {
+    "question": "What should I do if I forget my username?",
+    "answer": "Contact the health center's technical support or use your registered email address if the system allows email login."
+  },
+  {
+    "question": "Where can I update my account information?",
+    "answer": "You can update your personal information in the Profile or Account Settings section after logging in."
+  },
+  {
+    "question": "How do I change my password?",
+    "answer": "Go to the Account Settings page, select the Change Password option, and follow the required steps."
+  },
+  {
+    "question": "Who can modify my patient profile?",
+    "answer": "You may update certain personal information, while authorized healthcare personnel manage official medical records and verified patient information."
+  },
+  {
+    "question": "What should I do if my account is locked?",
+    "answer": "Contact technical support or follow the account recovery instructions provided by the system."
+  },
+  {
+    "question": "Where can I view my patient dashboard?",
+    "answer": "After logging in, you can access your patient dashboard from the homepage or navigation menu."
+  },
+  {
+    "question": "How do I update my contact information?",
+    "answer": "Navigate to your profile settings, edit your contact details, and save the updated information."
+  },
+  {
+    "question": "Who should I contact if my account contains incorrect information?",
+    "answer": "Notify the administrative office or technical support team so the information can be reviewed and corrected if necessary."
+  },
+  {
+    "question": "What features are available on the patient dashboard?",
+    "answer": "The patient dashboard may display appointments, QR Code, notifications, profile information, and healthcare announcements."
+  },
+  {
+    "question": "How do I log out securely?",
+    "answer": "Click the \"Logout\" button before leaving the website, especially when using a shared or public device."
+  },
+  {
+    "question": "What should I do during a medical emergency?",
+    "answer": "Seek immediate medical attention by calling emergency services or going to the nearest hospital if your condition is life-threatening. Inform the health center if follow-up care is needed."
+  },
+  {
+    "question": "Where should I go if the health center cannot provide emergency treatment?",
+    "answer": "You should proceed to the nearest accredited hospital or emergency medical facility for immediate care."
+  },
+  {
+    "question": "How can I contact the health center during office hours?",
+    "answer": "You may contact the health center through its official telephone number, email address, website, or by visiting the facility in person."
+  },
+  {
+    "question": "Who should I contact for urgent healthcare concerns?",
+    "answer": "Contact the health center for urgent but non-life-threatening concerns. For life-threatening emergencies, call emergency services or proceed to the nearest hospital."
+  },
+  {
+    "question": "What should I do if I accidentally miss my appointment?",
+    "answer": "Log in to your patient account and request a new appointment or contact the health center to reschedule."
+  },
+  {
+    "question": "Where can I obtain general healthcare information?",
+    "answer": "You can obtain healthcare information from the health center's website, AI Assistant, healthcare professionals, educational materials, or official announcements."
+  },
+  {
+    "question": "How can I stay updated with health center announcements?",
+    "answer": "Regularly check the official website, patient dashboard, social media pages, bulletin boards, or notification system."
+  },
+  {
+    "question": "Who may use the AI Assistant without creating an account?",
+    "answer": "Visitors may access general healthcare information through the AI Assistant, while some services may require patient registration and login."
+  },
+  {
+    "question": "What should I do if I forget to bring my QR Code?",
+    "answer": "Inform the registration staff. Your identity may be verified using your registered information, subject to health center procedures."
+  },
+  {
+    "question": "How can I retrieve my QR Code?",
+    "answer": "Log in to your patient account to download or display your QR Code, or request assistance from the health center."
+  },
+  {
+    "question": "What happens if I arrive earlier than my appointment?",
+    "answer": "You may wait in the designated waiting area until your appointment time or until your name is called."
+  },
+  {
+    "question": "Where can I provide suggestions to improve healthcare services?",
+    "answer": "Suggestions may be submitted through the suggestion box, patient feedback forms, website feedback page, or directly to authorized staff."
+  },
+  {
+    "question": "How does the health center evaluate patient satisfaction?",
+    "answer": "The health center may conduct surveys, collect feedback, review patient comments, and monitor service quality for continuous improvement."
+  },
+  {
+    "question": "Who reviews patient suggestions and complaints?",
+    "answer": "Health center administrators and authorized personnel review patient feedback and take appropriate action when necessary."
+  },
+  {
+    "question": "What should I do if I have a complaint about healthcare services?",
+    "answer": "Submit your concern through the official complaint process or discuss the matter with the health center administrator."
+  },
+  {
+    "question": "Where can I report inappropriate behavior or misconduct?",
+    "answer": "Report any inappropriate behavior to the health center administrator or the designated office responsible for handling complaints."
+  },
+  {
+    "question": "How are patient complaints handled?",
+    "answer": "Complaints are documented, investigated, evaluated, and resolved according to the health center's established procedures."
+  },
+  {
+    "question": "Who ensures the quality of healthcare services?",
+    "answer": "Healthcare professionals, administrators, and the local government work together to ensure quality healthcare services."
+  },
+  {
+    "question": "What should patients do before leaving the health center?",
+    "answer": "Ensure you have received your prescription, follow-up instructions, appointment schedule (if any), and all necessary documents."
+  },
+  {
+    "question": "How can I request additional healthcare information?",
+    "answer": "You may ask healthcare professionals, contact the information desk, use the AI Assistant, or visit the official website."
+  },
+  {
+    "question": "What should I do if I change my home address?",
+    "answer": "Update your address through your patient account or inform the health center during your next visit."
+  },
+  {
+    "question": "Where can I update my emergency contact information?",
+    "answer": "Emergency contact information can be updated through your patient profile or with assistance from authorized staff."
+  },
+  {
+    "question": "How often should I update my patient profile?",
+    "answer": "Update your profile whenever there are changes to your personal information, contact details, or emergency contacts."
+  },
+  {
+    "question": "Who should update patient information in the healthcare system?",
+    "answer": "Patients should update their personal information, while authorized staff update official healthcare records after verification."
+  },
+  {
+    "question": "What should I do if I receive incorrect healthcare information?",
+    "answer": "Verify the information with authorized healthcare personnel before taking any action."
+  },
+  {
+    "question": "Where can I verify announcements posted online?",
+    "answer": "Verify announcements through the official health center website, authorized social media accounts, or by contacting the health center directly."
+  },
+  {
+    "question": "How can I help improve healthcare services?",
+    "answer": "Attend appointments responsibly, provide honest feedback, follow health recommendations, and participate in community health programs."
+  },
+  {
+    "question": "Who develops the healthcare appointment system?",
+    "answer": "The healthcare appointment system is developed and maintained by authorized information technology personnel in collaboration with the health center and local government."
+  },
+  {
+    "question": "What are the advantages of using a web-based healthcare system?",
+    "answer": "A web-based system improves accessibility, appointment scheduling, record management, communication, efficiency, and patient convenience."
+  },
+  {
+    "question": "How does the QR Code improve patient services?",
+    "answer": "The QR Code allows faster patient identification, quicker record retrieval, reduced paperwork, and more efficient registration."
   }
 ]

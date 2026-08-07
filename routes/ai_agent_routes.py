@@ -1,29 +1,9 @@
 from fastapi import APIRouter, Request
 from fastapi.responses import JSONResponse
 import uuid
-import re
 from agent.agent import get_chat_bot_agent
 
 agent_router = APIRouter()
-
-
-def extract_text(message):
-    content = message.content
-
-    if isinstance(content, str):
-        return content
-
-    if isinstance(content, list):
-        texts = []
-
-        for block in content:
-            if isinstance(block, dict) and block.get("type") == "text":
-                texts.append(block.get("text", ""))
-
-        return "".join(texts)
-
-    return ""
-
 
 @agent_router.post("/api/chat")
 async def chat(req: Request):
@@ -61,15 +41,11 @@ async def chat(req: Request):
 
         ai_message = result["messages"][-1]
 
-        text = extract_text(ai_message)
-
-        text = re.sub(r"```[a-zA-Z]*\n?", "", text)
-        text = text.replace("```", "")
         return JSONResponse(
             status_code=200,
             content={
                 "thread_id": thread_id,
-                "message": text,
+                "message": ai_message.content,
             },
         )
 

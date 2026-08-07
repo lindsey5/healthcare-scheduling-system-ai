@@ -1,56 +1,55 @@
 import json
 
 from langchain_core.documents import Document
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_ollama import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS
 
-def create_vectorstore(path: str) -> Chroma:
-    # Load JSON
+def create_vectorstore(path: str):
+
     with open(path, "r", encoding="utf-8") as file:
         data = json.load(file)
 
-    # Convert JSON to LangChain Documents
     documents = [
         Document(
             page_content=f"Question: {item['question']}\nAnswer: {item['answer']}",
             metadata={
-                "question": item["question"],
+                "question": item["question"]
             },
         )
         for item in data
     ]
 
-    # Split into chunks
+    # For FAQ data, smaller chunks are better
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=500,
+        chunk_size=500,
+        chunk_overlap=50,
     )
 
-    print(documents)
     docs = splitter.split_documents(documents)
 
-    # Initialize embeddings
-    embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/gemini-embedding-001"
+    embeddings = OllamaEmbeddings(
+        model="nomic-embed-text"
     )
 
-    # Create vector store
-    vectorstore = Chroma.from_documents(
-        documents=docs,
-        embedding=embeddings,
-        persist_directory="./chroma_db",
+    vectorstore = FAISS.from_documents(
+        docs,
+        embeddings
     )
+
+    vectorstore.save_local("./faiss_db")
 
     return vectorstore
 
 
-def get_vectorstore() -> Chroma:
-    embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/gemini-embedding-001"
+def get_vectorstore():
+
+    embeddings = OllamaEmbeddings(
+        model="nomic-embed-text"
     )
 
-    return Chroma(
-        persist_directory="./chroma_db",
-        embedding_function=embeddings,
+    return FAISS.load_local(
+        "./faiss_db",
+        embeddings,
+        allow_dangerous_deserialization=True
     )
