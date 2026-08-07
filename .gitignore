@@ -1,0 +1,6 @@
+.env
+*.gguf
+notebooks/unsloth_compiled_cache
+notebooks/outputs
+
+__pycache__
