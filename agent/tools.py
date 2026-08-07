@@ -1,5 +1,5 @@
 from langchain.tools import tool
-
+from config import *
 from rag.vectorstore import get_vectorstore
 from rag.chain import create_rag_chain
 

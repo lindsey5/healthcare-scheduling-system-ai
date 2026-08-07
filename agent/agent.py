@@ -3,7 +3,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.prebuilt import create_react_agent  
 
 from agent.tools import getChatbotTools
-from llm.model import get_gemini_model
+from llm.model import get_ollama_model
 
 _chat_bot_agent = None
 _model = None
@@ -15,7 +15,7 @@ def initialize_agent():
     global _chat_bot_agent, _model
 
     _memory = InMemorySaver()
-    _model = get_gemini_model()
+    _model = get_ollama_model()
 
     chat_bot_prompt = """
 You are an AI assistant for the Barangay Bagumbayan Health Center.
