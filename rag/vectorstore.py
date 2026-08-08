@@ -1,9 +1,12 @@
 import json
 
 from langchain_core.documents import Document
-from langchain_ollama import OllamaEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
+
+from config import OPENROUTER_API_KEY
+
 
 def create_vectorstore(path: str):
 
@@ -28,8 +31,10 @@ def create_vectorstore(path: str):
 
     docs = splitter.split_documents(documents)
 
-    embeddings = OllamaEmbeddings(
-        model="nomic-embed-text"
+    embeddings = OpenAIEmbeddings(
+        model="openai/text-embedding-3-small",
+        api_key=OPENROUTER_API_KEY,
+        base_url="https://openrouter.ai/api/v1",
     )
 
     vectorstore = FAISS.from_documents(
@@ -44,8 +49,10 @@ def create_vectorstore(path: str):
 
 def get_vectorstore():
 
-    embeddings = OllamaEmbeddings(
-        model="nomic-embed-text"
+    embeddings = OpenAIEmbeddings(
+        model="openai/text-embedding-3-small",
+        api_key=OPENROUTER_API_KEY,
+        base_url="https://openrouter.ai/api/v1",
     )
 
     return FAISS.load_local(

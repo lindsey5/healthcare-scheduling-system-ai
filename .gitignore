@@ -2,5 +2,7 @@
 *.gguf
 notebooks/unsloth_compiled_cache
 notebooks/outputs
-
+notebooks/gguf_model
+notebooks/gguf_model_gguf
+notebooks/phi3-dolly-lora
 __pycache__
