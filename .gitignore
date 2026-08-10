@@ -1,4 +1,6 @@
 .env
+.venv
+venv
 *.gguf
 notebooks/unsloth_compiled_cache
 notebooks/outputs
