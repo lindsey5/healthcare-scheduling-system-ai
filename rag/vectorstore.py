@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
@@ -6,6 +7,17 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 
 from config import OPENROUTER_API_KEY
+
+FAISS_DB_PATH = Path("./faiss_db")
+EMBEDDING_MODEL = "openai/text-embedding-3-small"
+
+
+def get_embeddings():
+    return OpenAIEmbeddings(
+        model=EMBEDDING_MODEL,
+        api_key=OPENROUTER_API_KEY,
+        base_url="https://openrouter.ai/api/v1",
+    )
 
 
 def create_vectorstore(path: str):
@@ -17,7 +29,9 @@ def create_vectorstore(path: str):
         Document(
             page_content=f"Question: {item['question']}\nAnswer: {item['answer']}",
             metadata={
-                "question": item["question"]
+                "source": path,
+                "question": item["question"],
+                "answer": item["answer"],
             },
         )
         for item in data
@@ -31,32 +45,25 @@ def create_vectorstore(path: str):
 
     docs = splitter.split_documents(documents)
 
-    embeddings = OpenAIEmbeddings(
-        model="openai/text-embedding-3-small",
-        api_key=OPENROUTER_API_KEY,
-        base_url="https://openrouter.ai/api/v1",
-    )
-
     vectorstore = FAISS.from_documents(
         docs,
-        embeddings
+        get_embeddings()
     )
 
-    vectorstore.save_local("./faiss_db")
+    vectorstore.save_local(str(FAISS_DB_PATH))
 
     return vectorstore
 
 
 def get_vectorstore():
 
-    embeddings = OpenAIEmbeddings(
-        model="openai/text-embedding-3-small",
-        api_key=OPENROUTER_API_KEY,
-        base_url="https://openrouter.ai/api/v1",
-    )
+    if not FAISS_DB_PATH.exists():
+        raise FileNotFoundError(
+            "FAISS index not found. Run `python rag/ingest.py` before starting the app."
+        )
 
     return FAISS.load_local(
-        "./faiss_db",
-        embeddings,
+        str(FAISS_DB_PATH),
+        get_embeddings(),
         allow_dangerous_deserialization=True
     )

@@ -1,23 +1,113 @@
-from langchain_chroma import Chroma
-from langchain_classic.chains.retrieval_qa.base import RetrievalQA
+from typing import Any
+
+from langchain_community.vectorstores import FAISS
+from langchain_core.documents import Document
+from langchain_core.prompts import ChatPromptTemplate
 
 from rag.vectorstore import get_vectorstore
 from llm.model import get_openrouter_model
 
-def create_rag_chain(vectorstore: Chroma):
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 3 })
+TOP_K = 5
+MIN_RELEVANCE_SCORE = 0.45
 
-    qa_chain = RetrievalQA.from_chain_type(
-        llm=get_openrouter_model(),  
-        chain_type="stuff", 
-        retriever=retriever,
-        return_source_documents=True,
-    )
+RAG_PROMPT = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            """
+You answer questions for the Barangay Bagumbayan Health Center.
 
-    return qa_chain
+Use only the provided context. If the context does not contain enough
+information to answer, say: "I don't have that information."
+
+Keep the answer concise, factual, and safe. Do not make up schedules,
+contact details, medical diagnoses, treatments, fees, or policies.
+""".strip(),
+        ),
+        (
+            "human",
+            """
+Question:
+{question}
+
+Context:
+{context}
+""".strip(),
+        ),
+    ]
+)
+
+
+class RAGChain:
+    def __init__(
+        self,
+        vectorstore: FAISS,
+        top_k: int = TOP_K,
+        min_relevance_score: float = MIN_RELEVANCE_SCORE,
+    ):
+        self.vectorstore = vectorstore
+        self.llm = get_openrouter_model()
+        self.top_k = top_k
+        self.min_relevance_score = min_relevance_score
+
+    def invoke(self, inputs: dict[str, Any]) -> dict[str, Any]:
+        question = inputs.get("query") or inputs.get("question")
+
+        if not question:
+            raise ValueError("RAGChain requires a `query` or `question` input.")
+
+        source_documents = self._retrieve(question)
+
+        if not source_documents:
+            return {
+                "result": "I don't have that information.",
+                "source_documents": [],
+            }
+
+        context = self._format_context(source_documents)
+        messages = RAG_PROMPT.format_messages(question=question, context=context)
+        response = self.llm.invoke(messages)
+
+        return {
+            "result": response.content,
+            "source_documents": source_documents,
+        }
+
+    def _retrieve(self, question: str) -> list[Document]:
+        try:
+            results = self.vectorstore.similarity_search_with_relevance_scores(
+                question,
+                k=self.top_k,
+            )
+
+            return [
+                self._with_score(doc, score)
+                for doc, score in results
+                if score >= self.min_relevance_score
+            ]
+        except Exception:
+            return self.vectorstore.similarity_search(question, k=self.top_k)
+
+    def _with_score(self, document: Document, score: float) -> Document:
+        document.metadata = {
+            **document.metadata,
+            "relevance_score": round(score, 4),
+        }
+        return document
+
+    def _format_context(self, documents: list[Document]) -> str:
+        return "\n\n".join(
+            f"Source {index}\n{document.page_content}"
+            for index, document in enumerate(documents, start=1)
+        )
+
 
 _vectorstore = None
 _qa_chain = None
+
+
+def create_rag_chain(vectorstore: FAISS):
+    return RAGChain(vectorstore)
 
 
 def get_qa_chain():

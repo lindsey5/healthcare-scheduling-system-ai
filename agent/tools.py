@@ -8,10 +8,25 @@ def ask_question(question: str) -> str:
     """Search for knowledge-based answers related Bagumbayan Health Center, healthcare website and FAQs"""
     try:
         result = get_qa_chain().invoke({"query": question})
-        print(result)
-        return result["result"]
+        sources = result.get("source_documents", [])
+
+        if not sources:
+            return result["result"]
+
+        source_lines = []
+        for index, source in enumerate(sources, start=1):
+            matched_question = source.metadata.get("question", "Unknown source")
+            score = source.metadata.get("relevance_score")
+            score_text = f" (score: {score})" if score is not None else ""
+            source_lines.append(f"{index}. {matched_question}{score_text}")
+
+        return (
+            f"{result['result']}\n\n"
+            "Sources used:\n"
+            + "\n".join(source_lines)
+        )
     except Exception as e:
-            return f"{str(e)}"
+        return f"I don't have that information. Retrieval error: {str(e)}"
 
 @tool
 def get_services() -> dict:
