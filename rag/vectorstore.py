@@ -10,14 +10,20 @@ from config import OPENROUTER_API_KEY
 
 FAISS_DB_PATH = Path("./faiss_db")
 EMBEDDING_MODEL = "openai/text-embedding-3-small"
+_embeddings = None
 
 
 def get_embeddings():
-    return OpenAIEmbeddings(
-        model=EMBEDDING_MODEL,
-        api_key=OPENROUTER_API_KEY,
-        base_url="https://openrouter.ai/api/v1",
-    )
+    global _embeddings
+
+    if _embeddings is None:
+        _embeddings = OpenAIEmbeddings(
+            model=EMBEDDING_MODEL,
+            api_key=OPENROUTER_API_KEY,
+            base_url="https://openrouter.ai/api/v1",
+        )
+
+    return _embeddings
 
 
 def create_vectorstore(path: str):
