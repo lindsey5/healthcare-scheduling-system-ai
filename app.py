@@ -10,7 +10,8 @@ from routes.ai_agent_routes import agent_router
 app = FastAPI()
 
 allowed_origins = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://bagumbayan-healthcare-seven.vercel.app"
 ]
 
 
@@ -35,7 +36,7 @@ async def log_request(request, call_next):
 
 @app.get("/")
 async def root():
-    return JSONResponse(content={"hi"})
+    return JSONResponse(content={"message": "hi"})
 
 
 if __name__ == "__main__":

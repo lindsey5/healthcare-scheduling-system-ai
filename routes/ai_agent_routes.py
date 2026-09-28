@@ -27,7 +27,7 @@ async def chat(req: Request):
 
         agent = get_chat_bot_agent()
 
-        result = agent.invoke(
+        result = await agent.ainvoke(
             {
                 "messages": [
                     {

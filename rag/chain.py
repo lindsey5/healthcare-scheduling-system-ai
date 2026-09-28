@@ -2,41 +2,12 @@ from typing import Any
 
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain_core.prompts import ChatPromptTemplate
 
 from rag.vectorstore import get_vectorstore
-from llm.model import get_openrouter_model
 
 TOP_K = 3
 MIN_RELEVANCE_SCORE = 0.45
 DIRECT_ANSWER_SCORE = 0.72
-
-RAG_PROMPT = ChatPromptTemplate.from_messages(
-    [
-        (
-            "system",
-            """
-You answer questions for the Barangay Bagumbayan Health Center.
-
-Use only the provided context. If the context does not contain enough
-information to answer, say: "I don't have that information."
-
-Keep the answer concise, factual, and safe. Do not make up schedules,
-contact details, medical diagnoses, treatments, fees, or policies.
-""".strip(),
-        ),
-        (
-            "human",
-            """
-Question:
-{question}
-
-Context:
-{context}
-""".strip(),
-        ),
-    ]
-)
 
 
 class RAGChain:
@@ -47,7 +18,6 @@ class RAGChain:
         min_relevance_score: float = MIN_RELEVANCE_SCORE,
     ):
         self.vectorstore = vectorstore
-        self.llm = get_openrouter_model()
         self.top_k = top_k
         self.min_relevance_score = min_relevance_score
         self._cache = {}
@@ -81,12 +51,8 @@ class RAGChain:
             self._cache[cache_key] = result
             return result
 
-        context = self._format_context(source_documents)
-        messages = RAG_PROMPT.format_messages(question=question, context=context)
-        response = self.llm.invoke(messages)
-
         result = {
-            "result": response.content,
+            "result": self._format_context(source_documents),
             "source_documents": source_documents,
         }
         self._cache[cache_key] = result
@@ -105,7 +71,7 @@ class RAGChain:
                 if score >= self.min_relevance_score
             ]
         except Exception:
-            return self.vectorstore.similarity_search(question, k=self.top_k)
+            return []
 
     def _with_score(self, document: Document, score: float) -> Document:
         document.metadata = {
