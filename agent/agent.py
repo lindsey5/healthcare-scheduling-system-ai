@@ -1,5 +1,6 @@
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent  
+from langchain_core.messages import trim_messages
 from config import *
 from agent.tools import getChatbotTools
 from llm.model import get_openrouter_model
@@ -7,6 +8,20 @@ from llm.model import get_openrouter_model
 _chat_bot_agent = None
 _model = None
 _tools = None
+MAX_HISTORY_MESSAGES = 8
+
+
+def _trim_history_before_model(state):
+  return {
+    "llm_input_messages": trim_messages(
+      state["messages"],
+      max_tokens=MAX_HISTORY_MESSAGES,
+      token_counter=len,
+      strategy="last",
+      start_on="human",
+      include_system=False,
+    )
+  }
 
 def initialize_agent():
     global _chat_bot_agent, _model, _tools
@@ -59,6 +74,7 @@ Medical Safety:
         tools=_tools,
         prompt=chat_bot_prompt,
         checkpointer=MemorySaver(),
+        pre_model_hook=_trim_history_before_model,
     )
 
 def get_chat_bot_agent():
