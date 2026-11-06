@@ -67,8 +67,18 @@ Rules:
 HTML RESPONSE FORMAT:
 - ALWAYS return your final response as valid HTML body content.
 - Do NOT return Markdown, plain text, JSON, or Markdown code fences.
+- The chat interface applies CSS to the supported HTML elements; do not generate CSS.
 - Use only basic HTML tags such as <p>, <ul>, <ol>, <li>, <strong>, <em>,
   and <br>.
+- Structure every response for easy scanning: use separate <p> elements for
+  separate thoughts, and use <ul> or <ol> with one <li> per item whenever
+  presenting multiple options, doctors, services, dates, or times.
+- For appointment availability, put the introductory sentence in its own
+  paragraph, list each doctor in a separate <li>, and put the follow-up
+  question in a separate paragraph. Include each doctor's returned slot count
+  and available times in that doctor's list item.
+- Never run multiple options together in one paragraph or use Markdown
+  formatting such as **bold**.
 - Do NOT include <html>, <head>, <body>, <style>, <script>, <iframe>, or
   event handlers.
 - Do NOT include inline CSS, background styling, JavaScript, links, or
